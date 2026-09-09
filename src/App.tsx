@@ -16,6 +16,7 @@ import { Footer } from './components/Footer';
 import { WhatsAppButton } from './components/WhatsAppButton';
 import { PrivacyPolicy, TermsConditions } from './components/LegalViews';
 import { NotFound } from './components/NotFound';
+import { ReadingProgressBar } from './components/ReadingProgressBar';
 
 type AppView = 'main' | 'privacy' | 'terms' | '404';
 
@@ -157,6 +158,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-sky-500 selection:text-white">
+      {/* Viewport Reading Progress Bar */}
+      <ReadingProgressBar hideOnMobile={true} />
+
       {/* Sticky Top Navigation */}
       <Navbar
         onNavigate={scrollToSection}
