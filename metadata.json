@@ -1,0 +1,6 @@
+{
+  "name": "BizNova",
+  "description": "Professional digital solutions company offering website development, e-commerce, web applications, business automation, SEO, and website management services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
